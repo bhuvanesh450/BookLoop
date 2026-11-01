@@ -1,0 +1,30 @@
+# Dependencies and build output
+Frontend/node_modules/
+Frontend/dist/
+Backend/target/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/*.local
+/Backend/src/main/resources/application*.properties
+!/Backend/src/main/resources/application-example.properties
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.factorypath
+.settings/
+
+# Operating system, logs, and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
